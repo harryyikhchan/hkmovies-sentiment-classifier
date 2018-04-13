@@ -1,0 +1,8 @@
+flask
+jieba
+numpy==1.10.4
+pandas
+scipy==0.19.1
+sklearn
+gunicorn==19.7.1
+gevent==1.2.2
