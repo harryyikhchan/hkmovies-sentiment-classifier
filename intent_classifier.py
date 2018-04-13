@@ -56,9 +56,6 @@ class IntentClassifier:
         ## Option 2: Character-Level Tokenizer
         # tokens = [t for t in sentence]
 
-        tokens = [token for token in sentence if token != ""]
-        
-
         if not tokens:
             tokens = [original_sentence]
         # if (self.env == "development"):
